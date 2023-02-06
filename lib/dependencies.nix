@@ -31,7 +31,7 @@
     name = namePrefix + archivalStrategy.fileExtension;
 
     nativeBuildInputs =
-      [sbt gnused strip-nondeterminism file findutils]
+      [gnused strip-nondeterminism file findutils]
       ++ nativeBuildInputs
       ++ archivalStrategy.nativeBuildInputs;
 

@@ -59,7 +59,7 @@
 in
   stdenv.mkDerivation (drvAttrs
     // {
-      nativeBuildInputs = [sbt] ++ nativeBuildInputs;
+      nativeBuildInputs = nativeBuildInputs;
 
       passthru =
         passthru
